@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 //Importing PrimeNG module
 import { PrimengModule } from "./primeng.module";
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { RegisterComponent } from './componentes/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
