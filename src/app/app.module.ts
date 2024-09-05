@@ -21,4 +21,5 @@ import { PrimengModule } from "./primeng.module";
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
