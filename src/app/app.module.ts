@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 //Importing PrimeNG module
 import { PrimengModule } from "./primeng.module";
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
